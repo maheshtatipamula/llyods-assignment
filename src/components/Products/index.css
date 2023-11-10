@@ -1,0 +1,34 @@
+.products-main {
+  left: 200px;
+  height: auto;
+  width: 100%;
+}
+
+.outer {
+  display: flex;
+  box-shadow: 2px rgb(138, 61, 61);
+  height: auto;
+  gap: 10px;
+}
+.inner {
+  gap: 3px;
+  box-shadow: 2px rgb(138, 61, 61);
+}
+
+.inner img {
+  height: 180px;
+  width: 180px;
+}
+.but {
+  width: 80%;
+  margin: 1px auto;
+  background-color: rgb(255, 230, 0);
+  border: 0;
+  padding: 8px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.but:hover {
+  background-color: rgb(255, 255, 0);
+}
